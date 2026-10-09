@@ -381,6 +381,28 @@ main:focus, section:focus { outline: none; }
   line-height: 1.4;
 }
 
+.transcript {
+  width: 100%;
+  border: 1px solid var(--color-border);
+  border-radius: var(--radius-control);
+  background: var(--color-bg);
+}
+.transcript summary {
+  display: flex;
+  align-items: center;
+  min-height: var(--target-min);
+  padding: var(--space-8) var(--space-16);
+  font-weight: 700;
+  cursor: pointer;
+}
+.transcript__body {
+  display: grid;
+  gap: var(--space-8);
+  padding: 0 var(--space-16) var(--space-16);
+  color: var(--color-text-muted);
+  font-size: 1rem;
+}
+
 .project__note {
   padding-left: var(--space-16);
   border-left: 3px solid var(--color-primary);

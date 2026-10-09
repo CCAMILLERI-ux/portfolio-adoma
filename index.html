@@ -146,10 +146,9 @@
             <article aria-labelledby="p3-title">
               <div class="project__media">
                 <figure class="preview preview--video" data-video>
-                  <!-- Si assets/video-metier.mp4 existe, le lecteur s'affiche ; sinon la carte ci-dessous reste visible. -->
+                  <!-- Si assets/video-metier.mp4 existe, le lecteur s'affiche ; sinon la vignette ci-dessous reste visible. Sous-titres incrustés dans la vidéo. -->
                   <video controls preload="metadata" playsinline poster="assets/apercu-video.jpg" hidden aria-label="Vidéo : découvrir le métier de responsable d’insertion sociale chez Adoma">
                     <source src="assets/video-metier.mp4" type="video/mp4">
-                    <track kind="subtitles" src="assets/video-metier.vtt" srclang="fr" label="Français" default>
                   </video>
                   <div class="preview__placeholder" aria-hidden="true">
                     <img src="assets/vignette-video.svg" alt="" width="640" height="400" decoding="async">
@@ -178,9 +177,20 @@
                     </dd>
                   </div>
                 </dl>
-                <p class="project__note">La vidéo est hébergée sur la plateforme HeyGen.</p>
+                <details class="transcript">
+                  <summary>Lire la transcription de la vidéo</summary>
+                  <div class="transcript__body">
+                    <p>Un logement, c’est un point de départ. Mon métier, c’est d’aider les résidents à avancer dans leur parcours.</p>
+                    <p>Je suis responsable d’insertion sociale. Au quotidien, j’écoute les personnes, je repère leurs besoins et je les accompagne pour trouver des réponses adaptées.</p>
+                    <p>Cela peut être une démarche pour accéder à leurs droits, une difficulté liée à une aide interrompue, ou une orientation vers un professionnel de santé.</p>
+                    <p>J’accompagne aussi les démarches vers l’emploi et la recherche d’un logement plus durable.</p>
+                    <p>Et mon travail ne se limite pas aux rendez-vous individuels : j’organise des ateliers collectifs pour informer, favoriser les échanges et créer du lien.</p>
+                    <p>Pour cela, je travaille avec les équipes des résidences, les associations, les services sociaux et les acteurs de l’emploi. Chaque situation est différente. L’essentiel, c’est d’écouter, de mobiliser les bons interlocuteurs et d’aider chacun à gagner en autonomie.</p>
+                  </div>
+                </details>
+                <p class="project__note">Démonstration personnelle avec présentateur généré par IA. La vidéo est sous-titrée et également disponible sur HeyGen.</p>
                 <a class="btn btn--primary" href="https://app.heygen.com/videos/d-couvrir-le-m-tier-de-responsable-d-insertion-sociale-chez-adoma-a343f4c6fa904801bf1e7dcb9fcd5a4a" target="_blank" rel="noopener noreferrer">
-                  Voir la vidéo<span class="visually-hidden"> sur HeyGen (nouvel onglet)</span>
+                  Voir la vidéo sur HeyGen<span class="visually-hidden"> (nouvel onglet)</span>
                   <svg class="btn__icon" aria-hidden="true" focusable="false" viewBox="0 0 16 16" width="16" height="16"><path d="M6 3h7v7M13 3 4 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
                 </a>
               </div>
