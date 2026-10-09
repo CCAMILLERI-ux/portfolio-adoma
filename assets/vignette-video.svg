@@ -1,0 +1,48 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400">
+  <defs>
+    <clipPath id="f"><rect x="56" y="32" width="528" height="297" rx="8"/></clipPath>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M0 0 10 5 0 10z" fill="#101828"/>
+    </marker>
+  </defs>
+  <rect width="640" height="400" fill="#F6F7F9"/>
+  <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+    <!-- Cadre vidéo 16:9 -->
+    <rect x="56" y="32" width="528" height="297" rx="8" fill="#101828"/>
+    <g clip-path="url(#f)">
+      <circle cx="196" cy="150" r="36" fill="#475467"/>
+      <path d="M116 330c0-76 36-120 80-120s80 44 80 120z" fill="#475467"/>
+      <rect x="56" y="297" width="528" height="32" fill="#000" fill-opacity=".45"/>
+    </g>
+    <rect x="320" y="84" width="124" height="26" rx="13" fill="#E30613"/>
+    <text x="382" y="101" text-anchor="middle" font-size="12" font-weight="700" fill="#fff">Capsule métier</text>
+    <text x="320" y="146" font-size="21" font-weight="700" fill="#fff">Responsable</text>
+    <text x="320" y="172" font-size="21" font-weight="700" fill="#fff">d’insertion sociale</text>
+    <rect x="320" y="190" width="40" height="4" rx="2" fill="#E30613"/>
+
+    <!-- Sous-titres (schématiques) -->
+    <rect x="200" y="252" width="240" height="32" rx="4" fill="#000" fill-opacity=".7"/>
+    <rect x="216" y="262" width="208" height="5" rx="2.5" fill="#fff"/>
+    <rect x="248" y="272" width="144" height="5" rx="2.5" fill="#fff"/>
+
+    <!-- Barre de contrôle -->
+    <path d="M74 305v16l13-8z" fill="#fff"/>
+    <rect x="100" y="311" width="432" height="4" rx="2" fill="#475467"/>
+    <rect x="100" y="311" width="150" height="4" rx="2" fill="#E30613"/>
+    <circle cx="250" cy="313" r="6" fill="#fff"/>
+    <rect x="546" y="304" width="26" height="18" rx="3" fill="none" stroke="#fff" stroke-width="1.5"/>
+    <text x="559" y="317" text-anchor="middle" font-size="9" font-weight="700" fill="#fff">CC</text>
+
+    <!-- Étapes -->
+    <g font-size="12" font-weight="700" fill="#101828" text-anchor="middle">
+      <rect x="140" y="348" width="100" height="30" rx="15" fill="#fff" stroke="#D0D5DD"/>
+      <text x="190" y="367">Script</text>
+      <rect x="270" y="348" width="100" height="30" rx="15" fill="#fff" stroke="#D0D5DD"/>
+      <text x="320" y="367">Vidéo IA</text>
+      <rect x="400" y="348" width="100" height="30" rx="15" fill="#fff" stroke="#D0D5DD"/>
+      <text x="450" y="367">Sous-titres</text>
+    </g>
+    <path d="M243 363h22" stroke="#101828" stroke-width="1.8" marker-end="url(#a)"/>
+    <path d="M373 363h22" stroke="#101828" stroke-width="1.8" marker-end="url(#a)"/>
+  </g>
+</svg>

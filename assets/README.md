@@ -1,6 +1,7 @@
 # Fichiers d’aperçu à déposer ici
 
-Le site affiche automatiquement ces fichiers s’ils existent. Sinon, un emplacement sobre reste visible.
+Par défaut, chaque projet affiche une vignette illustrative (`vignette-portail.svg`, `vignette-design-system.svg`, `vignette-video.svg`), légendée « Illustration schématique du projet ».
+Si vous déposez les fichiers ci-dessous, ils remplacent automatiquement la vignette correspondante (et la légende disparaît).
 
 | Fichier | Usage | Format conseillé |
 | --- | --- | --- |

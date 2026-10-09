@@ -1,0 +1,64 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 10 5 0 10z" fill="#101828"/>
+    </marker>
+  </defs>
+  <rect width="640" height="400" fill="#F6F7F9"/>
+  <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+    <!-- Formulaire de proposition -->
+    <rect x="32" y="48" width="232" height="304" rx="8" fill="#fff" stroke="#D0D5DD"/>
+    <rect x="52" y="66" width="72" height="20" rx="10" fill="#FDECEE"/>
+    <text x="88" y="80" text-anchor="middle" font-size="10" font-weight="700" fill="#B8050F">Résidence</text>
+    <text x="52" y="112" font-size="16" font-weight="700" fill="#101828">Proposer une actualité</text>
+    <rect x="52" y="128" width="56" height="6" rx="3" fill="#98A2B3"/>
+    <rect x="52" y="140" width="192" height="28" rx="4" fill="#fff" stroke="#D0D5DD"/>
+    <rect x="52" y="182" width="72" height="6" rx="3" fill="#98A2B3"/>
+    <rect x="52" y="194" width="192" height="52" rx="4" fill="#fff" stroke="#D0D5DD"/>
+    <rect x="62" y="206" width="140" height="5" rx="2.5" fill="#E4E7EC"/>
+    <rect x="62" y="218" width="110" height="5" rx="2.5" fill="#E4E7EC"/>
+    <rect x="52" y="258" width="192" height="30" rx="4" fill="#fff" stroke="#98A2B3" stroke-dasharray="4 3"/>
+    <path d="M142 279v-12m-5 5 5-5 5 5" fill="none" stroke="#475467" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="52" y="302" width="112" height="34" rx="4" fill="#E30613"/>
+    <text x="108" y="324" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Envoyer</text>
+
+    <!-- Validation -->
+    <path d="M272 200h36" stroke="#101828" stroke-width="2" marker-end="url(#a)"/>
+    <circle cx="344" cy="200" r="26" fill="#101828"/>
+    <path d="m332 200 8 8 16-16" fill="none" stroke="#fff" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="344" y="248" text-anchor="middle" font-size="13" font-weight="700" fill="#101828">Validation</text>
+    <text x="344" y="265" text-anchor="middle" font-size="11" fill="#475467">Communication</text>
+
+    <path d="M372 196C390 150 384 100 404 100" fill="none" stroke="#101828" stroke-width="2" marker-end="url(#a)"/>
+    <path d="M372 200h32" stroke="#101828" stroke-width="2" marker-end="url(#a)"/>
+    <path d="M372 204C390 250 384 300 404 300" fill="none" stroke="#101828" stroke-width="2" marker-end="url(#a)"/>
+
+    <!-- Canaux -->
+    <g>
+      <rect x="412" y="68" width="196" height="64" rx="8" fill="#fff" stroke="#D0D5DD"/>
+      <rect x="428" y="84" width="32" height="32" rx="6" fill="#FDECEE"/>
+      <rect x="435" y="92" width="18" height="16" rx="2" fill="none" stroke="#E30613" stroke-width="2"/>
+      <path d="M435 97h18" stroke="#E30613" stroke-width="2"/>
+      <text x="472" y="98" font-size="14" font-weight="700" fill="#101828">Site web</text>
+      <rect x="472" y="108" width="100" height="6" rx="3" fill="#E4E7EC"/>
+    </g>
+    <g>
+      <rect x="412" y="168" width="196" height="64" rx="8" fill="#fff" stroke="#D0D5DD"/>
+      <rect x="428" y="184" width="32" height="32" rx="6" fill="#FDECEE"/>
+      <circle cx="438" cy="200" r="3.5" fill="#E30613"/>
+      <circle cx="451" cy="193" r="3.5" fill="#E30613"/>
+      <circle cx="451" cy="207" r="3.5" fill="#E30613"/>
+      <path d="m438 200 13-7m-13 7 13 7" stroke="#E30613" stroke-width="1.8"/>
+      <text x="472" y="198" font-size="14" font-weight="700" fill="#101828">LinkedIn</text>
+      <rect x="472" y="208" width="84" height="6" rx="3" fill="#E4E7EC"/>
+    </g>
+    <g>
+      <rect x="412" y="268" width="196" height="64" rx="8" fill="#fff" stroke="#D0D5DD"/>
+      <rect x="428" y="284" width="32" height="32" rx="6" fill="#FDECEE"/>
+      <rect x="435" y="292" width="18" height="14" rx="2" fill="none" stroke="#E30613" stroke-width="2"/>
+      <path d="m435 293 9 7 9-7" fill="none" stroke="#E30613" stroke-width="2" stroke-linejoin="round"/>
+      <text x="472" y="298" font-size="14" font-weight="700" fill="#101828">Newsletter</text>
+      <rect x="472" y="308" width="112" height="6" rx="3" fill="#E4E7EC"/>
+    </g>
+  </g>
+</svg>

@@ -35,7 +35,7 @@ La balise `<meta name="robots" content="noindex">` évite le référencement du 
 
 ## À compléter
 
-- Déposer les aperçus dans `assets/` (captures du prototype, planche UI, éventuellement le MP4 de la vidéo) : voir `assets/README.md`.
+- (Facultatif) Remplacer les vignettes illustratives par de vraies captures en les déposant dans `assets/` (captures du prototype, planche UI, éventuellement le MP4 de la vidéo) : voir `assets/README.md`.
 - Vérifier que les trois liens (Lovable, Figma Sites, HeyGen) sont publics. Le lien HeyGen peut demander une connexion ; un lien de partage public ou le MP4 intégré est préférable.
 
 ## Accessibilité

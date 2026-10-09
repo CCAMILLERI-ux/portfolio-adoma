@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 400" width="640" height="400">
+  <rect width="640" height="400" fill="#F6F7F9"/>
+  <g font-family="Helvetica Neue, Helvetica, Arial, sans-serif">
+    <!-- Fondations -->
+    <rect x="32" y="32" width="280" height="336" rx="8" fill="#fff" stroke="#D0D5DD"/>
+    <text x="52" y="62" font-size="14" font-weight="700" fill="#101828">Fondations</text>
+    <rect x="52" y="78" width="52" height="52" rx="6" fill="#E30613"/>
+    <rect x="116" y="78" width="52" height="52" rx="6" fill="#101828"/>
+    <rect x="180" y="78" width="52" height="52" rx="6" fill="#F6F7F9" stroke="#D0D5DD"/>
+    <rect x="244" y="78" width="52" height="52" rx="6" fill="#fff" stroke="#D0D5DD"/>
+    <g font-size="10" fill="#475467">
+      <text x="52" y="146">#E30613</text>
+      <text x="116" y="146">#101828</text>
+      <text x="180" y="146">#F6F7F9</text>
+      <text x="244" y="146">#FFFFFF</text>
+    </g>
+    <text x="50" y="230" font-size="64" font-weight="700" fill="#101828">Aa</text>
+    <text x="150" y="190" font-size="14" font-weight="700" fill="#101828">Anek Latin</text>
+    <text x="150" y="207" font-size="11" fill="#475467">Titres · graisse forte</text>
+    <text x="150" y="232" font-size="14" font-weight="700" fill="#101828">Helvetica Now</text>
+    <text x="150" y="249" font-size="11" fill="#475467">Texte courant</text>
+    <text x="52" y="282" font-size="11" font-weight="700" fill="#101828">Espacements</text>
+    <g fill="#F9C7CB">
+      <rect x="52" y="328" width="4" height="4"/>
+      <rect x="68" y="324" width="8" height="8"/>
+      <rect x="88" y="316" width="16" height="16"/>
+      <rect x="116" y="308" width="24" height="24"/>
+      <rect x="152" y="300" width="32" height="32"/>
+    </g>
+    <text x="204" y="282" font-size="11" font-weight="700" fill="#101828">Rayons</text>
+    <rect x="204" y="300" width="32" height="32" rx="4" fill="#E4E7EC"/>
+    <rect x="248" y="300" width="32" height="32" rx="8" fill="#E4E7EC"/>
+    <g font-size="10" fill="#475467">
+      <text x="52" y="350">4 · 8 · 16 · 24 · 32 px</text>
+      <text x="204" y="350">4 px · 8 px</text>
+    </g>
+
+    <!-- Composants -->
+    <rect x="328" y="32" width="280" height="336" rx="8" fill="#fff" stroke="#D0D5DD"/>
+    <text x="348" y="62" font-size="14" font-weight="700" fill="#101828">Composants</text>
+    <rect x="348" y="78" width="124" height="40" rx="4" fill="#E30613"/>
+    <text x="398" y="103" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Continuer</text>
+    <path d="M439 98h12m-4-4 4 4-4 4" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="484" y="79" width="104" height="38" rx="4" fill="#fff" stroke="#101828" stroke-width="2"/>
+    <text x="536" y="103" text-anchor="middle" font-size="13" font-weight="700" fill="#101828">Retour</text>
+
+    <rect x="342" y="134" width="136" height="52" rx="7" fill="none" stroke="#101828" stroke-width="3"/>
+    <rect x="348" y="140" width="124" height="40" rx="4" fill="#E30613"/>
+    <text x="398" y="165" text-anchor="middle" font-size="13" font-weight="700" fill="#fff">Continuer</text>
+    <path d="M439 160h12m-4-4 4 4-4 4" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="492" y="165" font-size="11" fill="#475467">Focus visible</text>
+
+    <text x="348" y="214" font-size="11" font-weight="700" fill="#101828">Adresse e-mail</text>
+    <rect x="348" y="222" width="240" height="36" rx="4" fill="#fff" stroke="#D0D5DD"/>
+    <text x="360" y="245" font-size="12" fill="#475467">nom@exemple.fr</text>
+
+    <text x="348" y="282" font-size="11" font-weight="700" fill="#B8050F">Champ obligatoire</text>
+    <rect x="348" y="290" width="240" height="36" rx="4" fill="#fff" stroke="#E30613" stroke-width="2"/>
+    <text x="360" y="313" font-size="12" fill="#101828">exemple@</text>
+    <circle cx="570" cy="308" r="8" fill="#E30613"/>
+    <rect x="569" y="302" width="2" height="7" rx="1" fill="#fff"/>
+    <circle cx="570" cy="313" r="1.2" fill="#fff"/>
+    <text x="348" y="346" font-size="11" fill="#B8050F">Veuillez renseigner une adresse valide.</text>
+  </g>
+</svg>
