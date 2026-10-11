@@ -474,6 +474,16 @@ main:focus, section:focus { outline: none; }
 .preview.is-loaded + .preview__caption { display: none; }
 .preview.is-loaded .preview__placeholder { display: none; }
 
+/* Vidéo verticale (9:16) */
+.preview--portrait {
+  aspect-ratio: 9 / 16;
+  width: min(100%, calc(min(70vh, 560px) * 9 / 16));
+  align-self: center;
+  margin-inline: auto;
+  background: var(--color-text);
+}
+.preview--portrait .preview__placeholder img { object-fit: cover; }
+
 /* Bouton d'agrandissement (planche UI) */
 .preview__zoom {
   position: absolute;

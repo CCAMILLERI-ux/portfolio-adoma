@@ -15,3 +15,5 @@ Si vous changez un nom de fichier, mettez à jour le chemin dans `index.html`.
 Vérifiez aussi que le texte alternatif (`alt`) de chaque image décrit bien la capture réelle.
 
 `video-metier.mp4` est fourni : version retouchée (sous-titres incrustés à partir du script, éléments de capture masqués, écran final « Démonstration réalisée dans le cadre de ma candidature chez Adoma »). Le filigrane HeyGen et la mention « Présentateur IA fictif » sont conservés.
+
+`video-kamino.mp4` (vidéo verticale 9:16, 32 s) et son image d’attente `apercu-kamino.jpg` illustrent le projet 4.
